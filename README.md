@@ -17,12 +17,13 @@ double hh, ss, vv;
 RGB2HSV(R, G, B, &hh, &ss, &vv);
 
 // after this line, hh,ss,vv contains the converted value.
+// hh 0-360, ss,vv 0-1
  ```
 HSV TO RGB:
 ```obj-c
 // declare RGB variable first.
 double newR, newG, newB;
-// hh,ss,ll are the hsv values in 0-1 range.
+// hh range is 0-360 & ss,ll are the hsv values in 0-1 range.
 HSV2RGB(&newR, &newG, &newB, hh, ss, ll);
 
 // after this line, newR,G,B contains the converted value.
