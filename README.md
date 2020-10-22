@@ -1,12 +1,12 @@
 # RGB2HSV_ObjectiveC
 Function to convert RGB to HSV and Vice Versa
 
-#Information
+# Information
 Particularly useful to use in iOS app development where you need a faster
 converter (especially in a pixel loop). This conversion is the same like
 UIColor class (UIColor getHue) and (UIColor colorFromHue)
 
-#Usage
+# Usage
 Copy the function into any .m class and use as below:
 
 RGB TO HSV:
@@ -29,7 +29,7 @@ HSV2RGB(&newR, &newG, &newB, hh, ss, ll);
 ```
 
 
-#Miscellaneous
+# Miscellaneous
 Apple uses "Value" or "Brightness". This is not the same as the usual "Lightness"
 in HSL values. If you are looking for RGB2HSL or HSL2RGB, you can go here:
 https://github.com/extendi/ColorConverter
